@@ -1,0 +1,8 @@
+.category-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+ gap: 12px;
+}
+.timer.warning { color: #dc2626; }
+.review-item.correct { border-color: #16a34a; }
+.review-item.incorrect { border-color: #dc2626; }
